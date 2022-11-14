@@ -1,5 +1,5 @@
 var button = document.getElementById("enter");
-var input = document.getElementById("userinput");
+var input = document.getElementById("userinput").focus();
 var ul = document.querySelector("ul");
 
 function inputLength() {
